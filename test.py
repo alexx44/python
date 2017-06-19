@@ -7,12 +7,18 @@ def lectura(lista):
       linea = entrada.readline()
       linea = linea.rsplit("\n")
       lista.append(linea)
-      print(linea)
+#      print(lista[i])
       i = i + 1
    entrada.close()
+   
+def desorden(lista):
+   
+   return lista
+   
    
 
 if __name__ == "__main__":
    lista = []
    lectura(lista)
+   desorden(lista)
    
