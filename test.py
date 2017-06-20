@@ -5,15 +5,21 @@ def lectura(lista):
    i = 0
    while i <= cantidad:
       linea = entrada.readline()
-      linea = linea.rsplit("\n")
+      linea = linea.split("\n")
       lista.append(linea)
 #      print(lista[i])
       i = i + 1
    entrada.close()
    
 def desorden(lista):
-   
-   return lista
+   i = 0
+   for character in lista:
+      letra = list(lista[i])
+      word = list(letra[0])
+      print word
+      i = i + 1
+      
+
    
    
 
