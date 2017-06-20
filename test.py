@@ -16,7 +16,9 @@ def desorden(lista):
    for character in lista:
       letra = list(lista[i])
       word = list(letra[0])
-      print word
+      for li in word:
+         print li        
+      
       i = i + 1
       
 
