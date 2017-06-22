@@ -18,11 +18,16 @@ def desorden(lista):
       word = list(letra[0])
       contar = 0
       indice = 0
+      indice2 = 0
       for li in word:
-         print word[i]
-         if [word[indice]] <= [word[indice + 1]]:
+         print word[indice]
+         if indice2 < (len(word) - 1):
+            indice2 += 1
+         print word[indice2]
+         if [word[indice]] < [word[indice2]]:
             contar += 1
          indice += 1
+         print contar
       i += 1   
      
   
